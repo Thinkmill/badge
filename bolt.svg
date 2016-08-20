@@ -1,43 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="162" height="20" viewBox="0 0 162 20" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
-      <stop stop-color="#5F5F5F" offset="0%"/>
-      <stop stop-color="#4C4C4C" offset="100%"/>
-    </linearGradient>
-    <rect id="a" width="162" height="19.5" rx="3"/>
-    <text id="e" fill="#FFF" font-family="Verdana-Bold, Verdana" font-size="9.5" font-weight="bold">
-      <tspan x="19" y="13">supported by</tspan>
-    </text>
-    <filter id="d" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
-      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
-    </filter>
-    <linearGradient id="f" x1="56.8%" x2="56.8%" y1="0%" y2="100%">
-      <stop stop-color="#FF7E38" offset="0%"/>
-      <stop stop-color="#FF315F" offset="100%"/>
-    </linearGradient>
-    <text id="h" fill="#FFF" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold">
-      <tspan x="102" y="14">Thinkmill</tspan>
-    </text>
-    <filter id="g" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
-      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
-    </filter>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <mask id="c" fill="#fff">
-      <use xlink:href="#a"/>
-    </mask>
-    <use fill="url(#b)" xlink:href="#a"/>
-    <g fill="#FFF" mask="url(#c)">
-      <use filter="url(#d)" xlink:href="#e"/>
-      <use xlink:href="#e"/>
+<svg width="146" height="20" viewBox="0 0 146 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
+            <stop stop-color="#5F5F5F" offset="0%"/>
+            <stop stop-color="#4C4C4C" offset="100%"/>
+        </linearGradient>
+        <rect id="a" width="146" height="19.5" rx="3"/>
+        <text id="e" font-family="Verdana" font-size="9.5" fill="#FFF">
+            <tspan x="19" y="13">supported by</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="d">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
+        </filter>
+        <linearGradient x1="56.8%" y1="0%" x2="56.8%" y2="100%" id="f">
+            <stop stop-color="#FF7E38" offset="0%"/>
+            <stop stop-color="#FF315F" offset="100%"/>
+        </linearGradient>
+        <text id="h" font-family="Verdana" font-size="10" fill="#FFF">
+            <tspan x="94" y="14">Thinkmill</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="g">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="url(#b)" xlink:href="#a"/>
+        <g mask="url(#c)" fill="#FFF">
+            <use filter="url(#d)" xlink:href="#e"/>
+            <use xlink:href="#e"/>
+        </g>
+        <path fill="url(#f)" mask="url(#c)" d="M88 0H154.2V19.5H88z"/>
+        <g mask="url(#c)" fill="#FFF">
+            <use filter="url(#g)" xlink:href="#h"/>
+            <use xlink:href="#h"/>
+        </g>
+        <path d="M8.12327807,16.1923077 L8.12327807,16.1923077 C7.99040459,16.1923077 7.88888542,16.0569801 7.91125405,15.9082279 L8.78057163,10.1558291 L6.23398924,10.1558291 C6.08907112,10.1558291 5.98525774,9.99603419 6.02846552,9.83948718 L7.46235199,4.67083761 C7.49083854,4.56928775 7.57362158,4.5 7.66787572,4.5 L12.1913096,4.5 C12.3488459,4.5008661 12.4518946,4.6859943 12.3845975,4.84752137 L11.4944408,6.97985185 L13.8274697,6.97985185 C14.0037421,6.97985185 14.106026,7.2074188 14.0008743,7.36807977 L8.29744748,16.0933561 C8.25710747,16.1559316 8.19210462,16.1923077 8.12327807,16.1923077 L8.12327807,16.1923077 Z" fill="#FFF" mask="url(#c)"/>
     </g>
-    <path fill="url(#f)" d="M96 0h66.2v19.5H96z" mask="url(#c)"/>
-    <g fill="#FFF" mask="url(#c)">
-      <use filter="url(#g)" xlink:href="#h"/>
-      <use xlink:href="#h"/>
-    </g>
-    <path fill="#FFF" d="M8 16.2V16l.8-5.8H6.2L6 9.8l1.5-5c0-.2 0-.3.2-.3h4.5s.3.2.2.3l-1 2.2H14c.2 0 .3.2.2.4l-6 8.6v.2z" mask="url(#c)"/>
-  </g>
 </svg>
