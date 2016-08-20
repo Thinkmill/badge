@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="20" viewBox="0 0 168 20" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop stop-color="#5F5F5F" offset="0%"/>
+      <stop stop-color="#4C4C4C" offset="100%"/>
+    </linearGradient>
+    <rect id="a" width="168" height="20" rx="3"/>
+    <linearGradient id="c" x1="56.8%" x2="56.8%" y1="0%" y2="100%">
+      <stop stop-color="#FF7E38" offset="0%"/>
+      <stop stop-color="#FF315F" offset="100%"/>
+    </linearGradient>
+    <text id="f" fill="#FFF" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold">
+      <tspan x="108" y="14">Thinkmill</tspan>
+    </text>
+    <filter id="e" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
+    </filter>
+    <text id="h" fill="#FFF" font-family="Verdana-Bold, Verdana" font-size="9.5" font-weight="bold">
+      <tspan x="25" y="13">supported by</tspan>
+    </text>
+    <filter id="g" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="d" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="url(#b)" xlink:href="#a"/>
+    <path fill="url(#c)" d="M102 -1H168.2V20H102z" mask="url(#d)"/>
+    <g fill="#FFF" mask="url(#d)">
+      <use filter="url(#e)" xlink:href="#f"/>
+      <use xlink:href="#f"/>
+    </g>
+    <g fill="#FFF" mask="url(#d)">
+      <use filter="url(#g)" xlink:href="#h"/>
+      <use xlink:href="#h"/>
+    </g>
+    <path fill="#FFF" d="M18.7806786,9.73576106 L18.7806786,8.466053 L17.5024878,8.466053 L17.5024878,7.15480073 L16.2224247,7.15480073 L16.2224247,5.89970622 L17.4991592,5.89970622 L17.4991592,4.61538462 L16.2193041,4.61538462 L16.2193041,5.89970622 L14.9425696,5.89970622 L14.9425696,7.18423658 L11.1344182,7.18423658 L11.1344182,5.89970622 L9.85768373,5.89970622 L9.85768373,4.61538462 L8.5786608,4.61538462 L8.5786608,5.89970622 L9.8553953,5.89970622 L9.8553953,7.15480073 L8.57533218,7.15480073 L8.57533218,8.466053 L7.29714141,8.466053 L7.29714141,9.73576106 L6.01791045,9.73576106 L6.01791045,13.5880996 L7.29797357,13.5880996 L7.29797357,11.0202914 L8.57616434,11.0202914 L8.57616434,13.5880996 L9.85206668,13.5880996 L9.85206668,14.8717949 L12.4111527,14.8717949 L12.4111527,13.5880996 L9.85456314,13.5880996 L9.85456314,12.303778 L16.2224247,12.303778 L16.2224247,13.5880996 L13.6666673,13.5880996 L13.6666673,14.8717949 L16.2257533,14.8717949 L16.2257533,13.5880996 L17.5016556,13.5880996 L17.5016556,11.0202914 L18.7798464,11.0202914 L18.7798464,13.5880996 L20.0597015,13.5880996 L20.0597015,9.73576106 L18.7806786,9.73576106 Z M11.1304655,9.73576106 L9.85705961,9.73576106 L9.85705961,8.46772312 L11.1304655,8.46772312 L11.1304655,9.73576106 Z M16.2207604,9.73576106 L14.9473545,9.73576106 L14.9473545,8.46772312 L16.2207604,8.46772312 L16.2207604,9.73576106 Z" mask="url(#d)"/>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166" height="20" viewBox="0 0 166 20" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop stop-color="#5F5F5F" offset="0%"/>
+      <stop stop-color="#4C4C4C" offset="100%"/>
+    </linearGradient>
+    <rect id="a" width="166" height="20" rx="3"/>
+    <linearGradient id="c" x1="56.8%" x2="56.8%" y1="0%" y2="100%">
+      <stop stop-color="#FF7E38" offset="0%"/>
+      <stop stop-color="#FF315F" offset="100%"/>
+    </linearGradient>
+    <text id="f" fill="#FFF" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold">
+      <tspan x="106" y="14">Thinkmill</tspan>
+    </text>
+    <filter id="e" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
+    </filter>
+    <text id="h" fill="#FFF" font-family="Verdana-Bold, Verdana" font-size="9.5" font-weight="bold">
+      <tspan x="23" y="13">supported by</tspan>
+    </text>
+    <filter id="g" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="d" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="url(#b)" xlink:href="#a"/>
+    <path fill="url(#c)" d="M100 0H166.2V20H100z" mask="url(#d)"/>
+    <g fill="#FFF" mask="url(#d)">
+      <use filter="url(#e)" xlink:href="#f"/>
+      <use xlink:href="#f"/>
+    </g>
+    <g fill="#FFF" mask="url(#d)">
+      <use filter="url(#g)" xlink:href="#h"/>
+      <use xlink:href="#h"/>
+    </g>
+    <g fill="#FFF" mask="url(#d)">
+      <path d="M1.36089909 8.03220232L4.10291819 10.7771549 4.78625644 10.3522866 1.78473571 7.3485353" transform="translate(6.018 4.103)"/>
+      <path d="M8.04679734,4.08514226 C7.68747505,3.7256902 7.68747505,3.1428451 8.04679734,2.78322445 C8.40595915,2.42360379 8.98835335,2.42360379 9.34751517,2.78322445 C9.70667698,3.1428451 9.70667698,3.7256902 9.34751517,4.08514226 C8.98771142,4.44408851 8.40531722,4.44408851 8.04679734,4.08514226 M7.90942356,8.35810327 C8.21161378,8.10655427 8.50433547,7.8398314 8.78518139,7.55793467 C9.86475311,6.47721812 10.734894,5.22655427 11.299635,3.9430137 C11.8481673,2.696902 12.0983608,1.45028451 12.0230941,0.339220232 L11.7886279,0.10402529 C10.6784039,0.0289989463 9.43337378,0.279199157 8.18834369,0.828493151 C6.90511855,1.3943098 5.65639734,2.26427819 4.5769861,3.34566913 C4.29549825,3.62689146 4.02893535,3.9199157 3.77761837,4.22288725 C2.79208991,4.25256059 1.81538804,4.64370917 1.06320242,5.39717597 C0.521570997,5.93787144 0.167384169,6.59641728 0,7.29053741 C0.655093172,6.80649104 1.44242465,6.5832666 2.21916423,6.62018967 C2.16459988,6.73281349 2.11260326,6.8459431 2.06253245,6.9599157 L5.17430526,10.0751106 C5.28776701,10.0250369 5.40058683,9.97226554 5.51340665,9.91763962 C5.55047831,10.6955532 5.32724592,11.4830769 4.84403045,12.1390938 C5.53731867,11.971844 6.19546103,11.6167756 6.73709245,11.0748999 C7.48879662,10.3221075 7.87941317,9.34474183 7.90942356,8.35810327" transform="translate(6.018 4.103)"/>
+    </g>
+  </g>
+</svg>

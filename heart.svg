@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="20" viewBox="0 0 164 20" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop stop-color="#5F5F5F" offset="0%"/>
+      <stop stop-color="#4C4C4C" offset="100%"/>
+    </linearGradient>
+    <rect id="a" width="164" height="20" rx="3"/>
+    <text id="e" fill="#FFF" font-family="Verdana-Bold, Verdana" font-size="9.5" font-weight="bold">
+      <tspan x="21" y="13">supported by</tspan>
+    </text>
+    <filter id="d" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
+    </filter>
+    <linearGradient id="f" x1="56.8%" x2="56.8%" y1="0%" y2="100%">
+      <stop stop-color="#FF7E38" offset="0%"/>
+      <stop stop-color="#FF315F" offset="100%"/>
+    </linearGradient>
+    <text id="h" fill="#FFF" font-family="Verdana-Bold, Verdana" font-size="10" font-weight="bold">
+      <tspan x="104" y="14">Thinkmill</tspan>
+    </text>
+    <filter id="g" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowOffsetOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="c" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="url(#b)" xlink:href="#a"/>
+    <g fill="#FFF" mask="url(#c)">
+      <use filter="url(#d)" xlink:href="#e"/>
+      <use xlink:href="#e"/>
+    </g>
+    <path fill="url(#f)" d="M98 0H164V20H98z" mask="url(#c)"/>
+    <g fill="#FFF" mask="url(#c)">
+      <use filter="url(#g)" xlink:href="#h"/>
+      <use xlink:href="#h"/>
+    </g>
+    <path fill="#FFF" d="M11.2968384,14.8332124 C11.1102529,15.0247325 10.8239988,15.0247325 10.6372668,14.8332124 L7.95500888,12.2400249 C6.1634658,10.4026951 5.29488326,8.89173117 6.85630914,6.82815519 C7.75743054,5.6331843 9.49459561,5.08057227 10.8903957,6.42241529 C10.9345137,6.46766454 11.0111706,6.46766454 11.0552886,6.42241529 C12.3194676,5.08057227 14.1000178,5.6331843 15.1009544,6.82815519 C16.7607297,8.80123268 15.7930648,10.4026951 13.9900892,12.2400249 L11.2968384,14.8332124 Z" mask="url(#c)"/>
+  </g>
+</svg>
