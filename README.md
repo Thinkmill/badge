@@ -6,19 +6,23 @@
 
 ## Usage
 
-To embed the heart badge in a Github README use this snippet: (yes, a limited subset of HTML works on Github in Markdown)
+To embed the heart badge in a Github README use this snippet:
+
+```markdown
+[![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au)
+```
+
+Which looks like this:
+
+[![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au)
+
+Alternatively you can embed HTML (a limited subset works on Github in Markdown):
 
 ```HTML
 <a href="http://thinkmill.com.au">
 	<img alt="Supported by Thinkmill" src="https://thinkmill.github.io/badge/heart.svg" />
 </a>
 ```
-
-Which looks like this:
-
-<a href="http://thinkmill.com.au">
-	<img alt="Supported by Thinkmill" src="https://thinkmill.github.io/badge/heart.svg" />
-</a>
 
 ### General
 
