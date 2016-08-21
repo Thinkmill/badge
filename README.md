@@ -9,17 +9,19 @@
 To embed the heart badge in a Github README use this snippet:
 
 ```markdown
-[![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au)
+[![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=xyz)
 ```
+
+(Replace the `xyz` in the `utm_campaign` part of the link with your project name)
 
 Which looks like this:
 
-[![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au)
+[![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=xyz)
 
 Alternatively you can embed HTML (a limited subset works on Github in Markdown):
 
 ```HTML
-<a href="http://thinkmill.com.au">
+<a href="http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=xyz">
 	<img alt="Supported by Thinkmill" src="https://thinkmill.github.io/badge/heart.svg" />
 </a>
 ```
@@ -37,7 +39,7 @@ The general usage looks like this: `https://thinkmill.github.io/badge/<type>.svg
 
 ### Best practices
 
-- Link to `http://thinkmill.com.au` when using these badges (otherwise people who click on them just see a bigger version)
+- Link to `http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=xyz` when using these badges, (otherwise people who click on them just see a bigger version) replacing the `xyz` in the `utm_campaign` part of the link with your project name and possibly change the `utm_source` to whatever site you use it on
 - Add "Supported by Thinkmill" as the alt text
 
 ## License
